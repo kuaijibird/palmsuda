@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/cover_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/logo_background" >
+
+        <TextView
+            android:id="@+id/textVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="TextView"
+            android:textColor="#aa0000"
+            android:textSize="12dip" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/teccc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textVersion"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="62dp"
+            android:text="数据更新中，请稍候..."
+            android:textColor="#7B7B7B"
+            android:textSize="18dip" >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/progressBar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/teccc"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/loading"
+            android:padding="5dp" >
+        </ImageView>
+    </RelativeLayout>
+    
+
+</LinearLayout>

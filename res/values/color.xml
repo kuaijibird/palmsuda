@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red_kuyou">#ee0000</color>
+    <color name="control_back">#AA00003D</color>
+    <color name="green">#084356</color>
+    <color name="gray_text">#6E6E6E</color>
+    <color name="txt_grey_sel">#6E6E6E</color>
+    <color name="txt_pl_sel">#6E6E6E</color>
+    <color name="gray_background">#E0E0E0</color>
+    <color name="yellow_text">#B88B24</color>
+    <color name="film_list_item_text_color">#184655</color>
+    <color name="film_sub_title_text_color">#FF9118</color>
+    <color name="film_date_unuse_bg">#D8D8D8</color>
+    <color name="squere_inf_bg">#BABABA</color>
+    <color name="weather_24_jieqi_1">#408080</color>
+    <color name="weather_24_jieqi">#53D0FE</color>
+    <color name="weather_yangli_jieqi">#F98D20</color>
+    <color name="weather_nli_jieqi">#C49402</color>
+    <color name="weather_sunday_jieqi">#FF00FF</color>
+    <color name="solid_red">#ffff0000</color>
+    <color name="solid_blue">#ff0000ff</color>
+    <color name="solid_green">#ff00ff00</color>
+    <color name="solid_yellow">#ffffff00</color>
+    <color name="clearData_lund_selected">#414246</color>
+    <color name="clearData_lund_unselected">#C3C8CB</color>
+    <color name="weather_home_city_name">#FF6D00</color>
+    <color name="weather_home_week">#854E00</color>
+    <color name="weather_home_message">#2085A4</color>
+    <color name="net_sub_title_color">#314D7D</color>
+    <color name="net_home_shape_bgcolor">#EFF6Fc</color>
+    <color name="gray_light">#b6b6b6</color>
+    <color name="orange_light">#FFFFE4CA</color>
+    <color name="grey_light">#FFE0E0E0</color>
+    <color name="blue_dark">#6CA6CD</color>
+    <color name="blue_light">#f2f9ff</color>
+    <color name="yellow_light">#FFFACD</color>
+    <color name="gray_selected_light">#EEEEEE</color>
+    <color name="divider_color_light">#D3D3D3</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="convenience_selected_light">#E2C8C5</color>
+    <color name="bluegrey">#bcd1e2</color>
+    <color name="grey_video">#EBEBEB</color>
+    <color name="divider_transparent">#00000000</color>
+    <color name="person_msg_blue">#007cad</color>
+    <color name="dd_detail_share_bg_gray">#969696</color>
+    <color name="gray">#ff4a4a4a</color>
+    <color name="orange">#FFA500</color>
+    <color name="news_cb_sel">#ff666666</color>
+    <color name="orange_red">#ffff0033</color>
+    <color name="forest_green">#ff228B22</color>
+    <color name="base_textgray">#525252</color>
+    <color name="hfb_textgray">#525252</color>
+
+</resources>

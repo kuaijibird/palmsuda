@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">掌上苏大</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="weather_flush_content">正在加载数据,请稍等...</string>
+    
+    <string name="alert_dialog_yes">是</string>
+    <string name="alert_dialog_no">否</string>
+    <string name="alert_dialog_quit_title">退出确认</string>
+    <string name="alert_dialog_quit_msg">您真的要退出 [掌上苏大] ？</string>
+    <string name="alert_dialog_update_title">升级确认</string>
+    <string name="alert_dialog_update_msg">您确定要升级到最新版本 [掌上苏大] 吗？</string>
+    <string name="common_setting">设置</string>
+    <string name="common_cancel">退出</string>
+    <string name="update_msg">正在升级....</string>
+    <string name="dialog_about_msg">© 2014 掌上苏大 版权所有</string>
+    <string name="dialog_error_title">异常</string>
+    <string name="dialog_sd_error_msg">SD卡无法访问，无法正常工作！</string>
+    <string name="dialog_no_network_title">网络不可用</string>
+    <string name="dialog_net_error_msg">您的设备未连接网络。请连接到网络并重试。</string>
+    <string name="dialog_sd_nospace_msg">您SD卡空间不足，请先清理SD卡。</string>
+    
+    <string name="menu_about">关于</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="flush">刷新</string>
+     <string name="update_ready">已更新到最新数据</string>
+    <string name="islastversion">已经是最新版本</string>
+    <string name="currentVersion">当前版本：</string>
+    <string name="friend_notify">友情提醒</string>
+    <string name="kind_tips">温馨提示</string>
+    <string name="notice_title">新消息</string>
+     <string name="function_notify">不好意思，该功能只有升级后可以使用，赶紧更新试试吧！</string>    
+    
+
+</resources>

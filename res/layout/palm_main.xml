@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/living_bk"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/pagetitlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@color/forest_green" >
+
+        <com.mialab.palmsuda.views.VScrollTextView
+            android:id="@+id/grid_title_name"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dip" />
+    </RelativeLayout>
+
+    <LinearLayout       
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/clarend2"
+        android:orientation="vertical" >
+
+        <LinearLayout            
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <com.mialab.palmsuda.views.MyScrollView
+                android:id="@+id/vflipper"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:id="@+id/bar_item_dot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal" />
+        </LinearLayout>
+
+        <com.mialab.palmsuda.views.MyHScrollView
+            android:id="@+id/bar_scroll_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_bottombar_a"
+            android:fadingEdge="none"
+            android:paddingTop="4dip"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@+id/bar_item_holder"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </com.mialab.palmsuda.views.MyHScrollView>
+    </LinearLayout>
+
+</LinearLayout>
